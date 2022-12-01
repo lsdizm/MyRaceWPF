@@ -17,6 +17,7 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Button x:Name="buttonTest" Grid.Column="0" Grid.Row="0" Content="TEST" HorizontalAlignment="Left" Margin="5,5,5,5" VerticalAlignment="Top" Click="buttonTest_Click"/>
+        <Button x:Name="buttonAPI" Grid.Column="1" Grid.Row="0" Content="API" HorizontalAlignment="Left" Margin="5,5,5,5" VerticalAlignment="Top" Click="buttonCall_Click"/>
         <DataGrid x:Name="gridResult" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="1" Margin="5,5,5,5"/>
     </Grid>
     
